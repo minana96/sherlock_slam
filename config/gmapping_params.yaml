@@ -18,10 +18,10 @@ angularUpdate: 0.1
 temporalUpdate: -1
 resampleThreshold: 0.5
 particles: 5
-xmin: -5.0
-ymin: -5.0
-xmax: 5.0
-ymax: 5.0
+xmin: -3.0
+ymin: -3.0
+xmax: 3.0
+ymax: 3.0
 delta: 0.05
 llsamplerange: 0.01
 llsamplestep: 0.01
