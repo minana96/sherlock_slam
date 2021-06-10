@@ -1,9 +1,9 @@
 <launch>
   <!-- Arguments -->
   <arg name="remote_machine_name" default="remote_pc"/>
-  <arg name="path_to_remote_ws" default="/home/milica/catkin_ws"
+  <arg name="path_to_remote_ws" default="/home/milica/catkin_ws"/>
 
-  <!-- Gmapping -->
+  <!-- Gmapping --> 
   <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" machine="$(arg remote_machine_name)">
     <param name="base_frame" value="base_footprint"/>
     <param name="odom_frame" value="odom"/>
