@@ -1,13 +1,14 @@
 <launch>
   <!-- Arguments -->
   <arg name="open_rviz" default="false"/>
+  <arg name="params_file" default="$(find sherlock_slam)/config/gmapping_params.yaml"/>
 
   <!-- Gmapping -->
   <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping">
     <param name="base_frame" value="base_footprint"/>
     <param name="odom_frame" value="odom"/>
     <param name="map_frame"  value="map"/>
-    <rosparam command="load" file="$(find sherlock_slam)/config/gmapping_params.yaml" />
+    <rosparam command="load" file="$(arg params_file)" />
   </node>
 
   <!-- rviz -->
