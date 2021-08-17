@@ -1,6 +1,6 @@
 # *sherlock_slam* ROS package
 
-This repository represent the *sherlock_slam* ROS pacakge, the package that configures and launches SLAM task via [gmapping](http://wiki.ros.org/gmapping) ROS package. The package is intended for ROS Melodic. The repository needs to be cloned to the catkin workspace on the robot (no need to clone it to the PC) and compiled with following commands:
+This repository represent the *sherlock_slam* ROS pacakge, the package that configures and launches SLAM task via [gmapping](http://wiki.ros.org/gmapping) ROS package. The *sherlock_slam* package is intended for ROS Melodic. The repository needs to be cloned to the catkin workspace on the robot (no need to clone it to the PC) and compiled with following commands:
 ```bash
 cd <catkin_ws_dir>/src
 git clone git@github.com:minana96/sherlock_slam.git
@@ -28,7 +28,7 @@ The direcotry contains parameter configuration for *gmapping* ROS node in *yaml*
 
 ### launch
 
-The SLAM tasks is configured and launched via two launch files:
+The SLAM task is configured and launched via two launch files:
 - **sherlock_slam.launch**: SLAM is launched on the local machine, with the possibility of visualisation in [Rviz](http://wiki.ros.org/rviz) tool. If this option is used, both Rviz and *turtlebot3_slam* ROS package need to be installed with following commands:
 ```bash
 sudo apt install ros-melodic-rviz
