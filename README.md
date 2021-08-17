@@ -34,7 +34,7 @@ The SLAM task is configured and launched via two launch files:
 sudo apt install ros-melodic-rviz
 sudo apt install ros-melodic-turtlebot3-slam
 ```
-- **sherlock_slam_remote.launch**: SLAM is launched on the remote machine that is passed as an argument. If this launch file is used, it is important that *gmapping* is also installed on the target remote machine.
+- **sherlock_slam_remote.launch**: SLAM is launched on the remote machine that is passed as a parameter. If this launch file is used, it is important that the *gmapping* ROS package is also installed on the target remote machine.
 
 ### maps  
 
