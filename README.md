@@ -1,6 +1,6 @@
 # *sherlock_slam* ROS package
 
-This repository represent the *sherlock_slam* ROS pacakge, the package that configures and launches SLAM task via [gmapping](http://wiki.ros.org/gmapping) ROS package. The *sherlock_slam* package is intended for ROS Melodic. The repository needs to be cloned to the catkin workspace on the robot (no need to clone it to the PC) and compiled with following commands:
+This repository represents the *sherlock_slam* ROS pacakge, the package that configures and launches SLAM task via [gmapping](http://wiki.ros.org/gmapping) ROS package. The *sherlock_slam* package is intended for ROS Melodic. The repository needs to be cloned to the catkin workspace on the robot (no need to clone it to the PC) and compiled with following commands:
 ```bash
 cd <catkin_ws_dir>/src
 git clone git@github.com:minana96/sherlock_slam.git
